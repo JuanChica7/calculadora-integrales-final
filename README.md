@@ -1,9 +1,11 @@
 # calculadora-integrales-final
 calcuculadora de derivadas e integrales 
 
-Docente: Leonardo Fabio Narvaez Lopez
+Docente: Leonardo Fabio Narvaez Lopez 
 Youtube: https://youtube.com/playlist?list=PLqmLPKDzVVaN_TD6ZdTGUEWQrv1u9ml7m&s
 i=QpgdppY4sC3OROtm
+Docente Tiempo Completo Fundación Escuela Tecnologica Jesús Oviedo Pérez
+Programa Ingeniería de Sofatware
 
 Integrantes:
 - Juan Esteban Avila Ceballos SOF320242006
@@ -17,3 +19,4 @@ Integrantes:
 - Camilo Andres Vargas Amaya SOF320242009
 - Karen Dayana Velazco Quimbaya SOF320242008
 - Kevin Stiven Solarte Robayo SOF320242012
+
