@@ -4,7 +4,10 @@ calcuculadora de derivadas e integrales
 Docente: Leonardo Fabio Narvaez Lopez 
 Youtube: https://youtube.com/playlist?list=PLqmLPKDzVVaN_TD6ZdTGUEWQrv1u9ml7m&s
 i=QpgdppY4sC3OROtm
+
 Docente Tiempo Completo Fundación Escuela Tecnologica Jesús Oviedo Pérez
+
+
 Programa Ingeniería de Sofatware
 
 Integrantes:
@@ -22,6 +25,6 @@ Integrantes:
 
 FERIA DE EMPRENDIMIENTO INNOEM 03 octubre de 2024 Fundación Escuela Tecnológica Jesús Oviedo Pérez
 
-Juan Manuel Chica Cordoba SOF320242010
-Juan Esteban Avila Ceballos SOF320242006
-Jose Alejandro Cuellar Gutierrez SOF320242007
+- Juan Manuel Chica Cordoba SOF320242010
+- Juan Esteban Avila Ceballos SOF320242006
+- Jose Alejandro Cuellar Gutierrez SOF320242007
