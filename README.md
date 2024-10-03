@@ -20,3 +20,8 @@ Integrantes:
 - Karen Dayana Velazco Quimbaya SOF320242008
 - Kevin Stiven Solarte Robayo SOF320242012
 
+FERIA DE EMPRENDIMIENTO INNOEM 03 octubre de 2024 Fundación Escuela Tecnológica Jesús Oviedo Pérez
+
+Juan Manuel Chica Cordoba SOF320242010
+Juan Esteban Avila Ceballos SOF320242006
+Jose Alejandro Cuellar Gutierrez SOF320242007
