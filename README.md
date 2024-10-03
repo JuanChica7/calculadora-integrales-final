@@ -25,6 +25,8 @@ Integrantes:
 
 FERIA DE EMPRENDIMIENTO INNOEM 03 octubre de 2024 Fundación Escuela Tecnológica Jesús Oviedo Pérez
 
+ESTUDIANTES PONENTES
+
 - Juan Manuel Chica Cordoba SOF320242010
 - Juan Esteban Avila Ceballos SOF320242006
 - Jose Alejandro Cuellar Gutierrez SOF320242007
