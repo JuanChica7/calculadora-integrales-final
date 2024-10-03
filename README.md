@@ -28,6 +28,6 @@ FERIA DE EMPRENDIMIENTO INNOEM 03 octubre de 2024 Fundación Escuela Tecnológic
 
 ESTUDIANTES PONENTES
 
-- Juan Manuel Chica Cordoba SOF320242010
+- Juan Manuel Chica Cordoba SOF320242010 --> Pefil CvLAC: https://scienti.minciencias.gov.co/cvlac/EnRecursoHumano/inicio.do
 - Juan Esteban Avila Ceballos SOF320242006
 - Jose Alejandro Cuellar Gutierrez SOF320242007
