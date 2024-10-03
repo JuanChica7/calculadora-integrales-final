@@ -1,6 +1,9 @@
 # calculadora-integrales-final
 calcuculadora de derivadas e integrales 
-Docente: Leonardo Fabio Narvaez Lopez 
+
+Docente: Leonardo Fabio Narvaez Lopez
+Youtube: https://youtube.com/playlist?list=PLqmLPKDzVVaN_TD6ZdTGUEWQrv1u9ml7m&s
+i=QpgdppY4sC3OROtm
 
 Integrantes:
 - Juan Esteban Avila Ceballos SOF320242006
