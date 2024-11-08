@@ -2,6 +2,11 @@ from sympy import symbols, diff, integrate, sympify
 from tkinter import *
 from PIL import Image, ImageTk
 import subprocess
+import pygame
+
+pygame.init()
+pygame.mixer.music.load("Ecuaciones_Diferenciales.mp3")
+pygame.mixer.music.play(-1) 
 
 def calcular_derivada(expresion, variable):
     x = symbols(variable)
@@ -28,7 +33,7 @@ def derivadas():
     except:
         resultado_label.configure(text="Error: Ingresa la expresión y variable correctamente")
 
-#  calcular la integral 
+#  calcular integral 
 def integrales():
     expresion = funcion.get()
     variable = variable_entry.get()
@@ -37,14 +42,15 @@ def integrales():
     try:
         if limite_inferior and limite_superior:
             resultado = calcular_integral(expresion, variable, float(limite_inferior), float(limite_superior))
-            
+            resultado_label.configure(text="Resultado: " + str(resultado))
         else:
             resultado = calcular_integral(expresion, variable)
-        resultado_label.configure(text="Resultado: " + str(resultado) + " + C")
+            resultado_label.configure(text="Resultado: " + str(resultado) + " + C")
     except:
         resultado_label.configure(text="Error: Ingresa la expresión, variable y límites correctamente")
 
-# calcular la int por partes  
+
+# calcular int por partes  
 def integral_por_partes():
     try:
         subprocess.Popen(['python', 'cal.py'])
@@ -63,7 +69,7 @@ ventana.geometry('700x650')
 ventana.title("Cálculadora de derivadas e integrales")
 
 # fondo 
-fondo_color = 'lightgreen'  #  fondo 
+fondo_color = 'lightgreen'  
 ventana.configure(bg=fondo_color)
 
 
@@ -72,7 +78,7 @@ textoo_calculadora.grid(row=0, column=0, columnspan=2, pady=10)
 
 #  imagen
 fondo_img = Image.open("fet.jpg")
-fondo_img = fondo_img.resize((200, 200))  # tamaño imagen
+fondo_img = fondo_img.resize((200, 200))  
 fondo_img = ImageTk.PhotoImage(fondo_img)
 fondo_label = Label(ventana, image=fondo_img, bg=fondo_color)
 fondo_label.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
@@ -81,7 +87,7 @@ fondo_label.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
 vent = Label(ventana, text="Expresión:", font=("Verdana", 14), bg=fondo_color)
 vent.grid(row=2, column=0, padx=10, pady=5, sticky=E)
 
-funcion = Entry(ventana, font=("Verdana", 14), width=30)  # tamaño del campo de entrada
+funcion = Entry(ventana, font=("Verdana", 14), width=30)  
 funcion.grid(row=2, column=1, padx=10, pady=5, sticky=W)
 
 anuncio_variable = Label(ventana, text="Variable:", font=("Verdana", 14), bg=fondo_color)

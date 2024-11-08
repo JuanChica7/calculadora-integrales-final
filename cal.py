@@ -90,9 +90,9 @@ def paso_a_paso(u, dv):
     resultado_label = tk.Label(paso_a_paso_ventana, text="El resultado final es: {}".format(resultado_final), font=("Verdana", 12), bg="lightgreen")
     resultado_label.pack(pady=10)
 
-def dudass():
-    url = "https://marcoenfermeria2.weebly.com/integrales-2.html"
-    webbrowser.open(url)
+# def dudass():
+#     url = "https://marcoenfermeria2.weebly.com/integrales-2.html"
+#     webbrowser.open(url)
 
 ventana = tk.Tk()
 ventana.title("Cálculo de Integración por Partes")
@@ -127,8 +127,8 @@ calcular_boton.pack(pady=5)
 
 paso_a_paso_boton = tk.Button(ventana, text="Ver Paso a Paso", font=("Verdana", 14), command=ver_paso_a_paso, bg='sky blue', fg='black')
 
-dudas = tk.Button(ventana, text="SI TIENES DUDAS DA CLICK", font=("Verdana", 14), command=dudass, bg='sky blue', fg='black')
-dudas.pack(pady=5)
+# dudas = tk.Button(ventana, text="SI TIENES DUDAS DA CLICK", font=("Verdana", 14), command=dudass, bg='sky blue', fg='black')
+# dudas.pack(pady=5)
 
 resultado_label = tk.Label(ventana, text="", font=("Verdana", 14), bg="lightgreen")
 resultado_label.pack(pady=10)
